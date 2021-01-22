@@ -1,0 +1,29 @@
+O front do projeto é
+
+a imagem de desligado dentro de uma div dentro de um main
+
+outra div com id buttons
+com todos os buttons cada um com seu id e com a mesma class button
+
+js
+
+abrir uma const de imagem
+const img = document.getElementById('img');
+
+const dos buttons
+const buttons = document.getElementById('buttons');
+
+
+adicionar um evento ao button que quando escutado chama a função de traffic
+
+o addEventListener tem um callback que recebe um argumento no caso o evento que foi clicado que é o event
+que passa a ser parâmetro para função com target(alvo) é possivel saber o button que clicou com .id pegamos so o id
+
+const trafficLgth = (event) => {
+    console.log(event.target.id)
+}
+
+
+buttons.addEventListener('click', trafficLgth);
+
+ 
