@@ -26,4 +26,39 @@ const trafficLgth = (event) => {
 
 buttons.addEventListener('click', trafficLgth);
 
+-criar um objeto literal
+-constante recebendo objeto literal
+-para cada cor
+- 'red': () => img.src = './img/vermelho.png',
+
+Chamar objeto dentro da função
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
