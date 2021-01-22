@@ -1,16 +1,90 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-main{
-    height: 100vh;
+
+main {
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 5vh;
 }
-.button{
-    width: 80px;
+
+.fundo{
+    width: 100%;
+    height: 100%;
+}
+.btnRed {
+    background-color: #f52e2e;
+    border-radius: 200px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    height: 50px;
+    width: 140px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #000000;
+    cursor: pointer;
+}
+
+.btngreen {
+    background-color: green;
+    border-radius: 200px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    height: 50px;
+    width: 140px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #000000;
+    cursor: pointer;
+}
+
+.btnyellow {
+    background-color: yellow;
+    border-radius: 200px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    height: 50px;
+    width: 140px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #000000;
+    cursor: pointer;
+}
+
+.btnautomatic {
+    background-color: gray;
+    border-radius: 200px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    height: 50px;
+    width: 140px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #000000;
+    cursor: pointer;
 }

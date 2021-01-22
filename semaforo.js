@@ -28,7 +28,7 @@ const turnON = {
     'red': () => img.src = './img/vermelho.png',
     'yellow': () => img.src = './img/amarelo.png',
     'green': () => img.src = './img/verde.png',
-    'automatic': () => intervalId = setInterval(changeColor, 2000)
+    'automatic': () => intervalId = setInterval(changeColor, 1000)
 }
 
 buttons.addEventListener('click', trafficLigth);
